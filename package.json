@@ -1,0 +1,36 @@
+{
+  "name": "chatomatic",
+  "version": "1.0.0",
+  "description": "This project provides the instant communication functionality between users. The users have the capability to do one to one communication, group communications and video/audio chat. And the users can receive messages instantly while online and still be able to see the messages sent while they are offline.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon Backend/server.js",
+    "start": "node Frontend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groot-2001/ChatoMatic.git"
+  },
+  "keywords": [
+    "online-chat",
+    "online-support",
+    "live-support",
+    "live-chat",
+    "chat",
+    "realtime-chat"
+  ],
+  "author": "Shiva Silmawala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Groot-2001/ChatoMatic/issues"
+  },
+  "homepage": "https://github.com/Groot-2001/ChatoMatic#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
