@@ -2,8 +2,10 @@ const express = require("express");
 const {chats} = require("./data/data");
 const dotenv = require("dotenv");
 const app = express();
+const connectDB = require("./config/db");
 
 dotenv.config();
+connectDB();
 
 const port = process.env.PORT;
 
